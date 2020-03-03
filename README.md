@@ -3,10 +3,10 @@
 <http://n8henrie.com/2015/12/control-an-rf-outlet-with-siri-via-homebridge>
 
 Fork of <https://github.com/marvinroger/node-rcswitch> with `/dev/gpiomem`
-access for rootless use on Raspbian Jessie as well as an exposing
+access for rootless use on Raspbian,  as well as an exposing
 the `setPulseLength` method and expanding `rcswitch.send` to accept a decimal
 RF code (with bit length), as per the c++ version. Renamed as it may not be
-backwards compatible with Wheezy / systems without `/dev/gpiomem`.
+backwards compatible with systems without `/dev/gpiomem`.
 
 My contribution has been negligible; all credit goes to the original developers
 of these libraries:
